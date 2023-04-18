@@ -1,0 +1,42 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    background-color:dimgray;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 600px;
+    list-style-type: none;
+}
+
+*{
+    color: white;
+    font-family: "Roboto";
+}
+
+.btn{
+    background-color: rgba(0, 255, 255, 0.76);
+    box-shadow: 2px 2px black;
+    width: 90px;
+    height: 30px;
+}
+
+[href]{
+    text-decoration: none;
+}
+
+a:visited{
+    color: darkgrey;
+
+}
+a:hover{
+    color: white;
+}
+a:active{
+    color: white;
+}

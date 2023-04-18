@@ -1,0 +1,56 @@
+.container{
+    margin: 0 auto;
+    width: 750px;
+    height: 360px;
+    border: 2px solid rgb(131, 129, 129);
+    border-radius: 1%;
+}
+
+.top-bar{
+    height: 100px;
+    background-color: rgb(39, 188, 238);
+    border-radius: 1% 1% 0 0;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50px;
+    left: 430px;
+    font-family:cursive;
+}
+
+.user-circle{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    padding: 2px; 
+    border: 3px solid rgb(131, 129, 129);
+    border-radius: 50%;
+}
+
+.map-marker{
+    height: 30px
+}
+
+.gear{
+    height: 20px;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+}
+
+h2{
+    margin: 5px 0;
+}
+p{
+    margin: 0;
+} 
+
+.edit{
+    margin: 15px 0;
+}

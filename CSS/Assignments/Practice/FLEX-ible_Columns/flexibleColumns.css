@@ -1,0 +1,25 @@
+.row{
+    display: flex;
+    gap: 0 15px;
+    margin: 15px 0;
+    height: 50px;
+    color: white;
+}
+
+.col{
+    background-color:darkcyan;
+    flex: 1;
+    padding: 15px;
+}
+
+.col-2{
+    background-color: darkcyan;
+    flex: 2;
+    padding: 15px;
+}
+
+.col-3{
+    background-color: darkcyan;
+    flex: 3;
+    padding: 15px;
+}

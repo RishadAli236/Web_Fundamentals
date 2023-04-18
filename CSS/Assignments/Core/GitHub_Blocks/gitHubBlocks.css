@@ -1,0 +1,44 @@
+.container{
+    width: 950px;
+    margin: 0 auto;
+    padding: 15px 10px;
+    background-color: beige;
+}
+
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+
+img{
+    height: 200px;
+}
+
+
+.row1{
+    height: 250px;
+    margin: 20px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.row2{
+    height: 250px;
+    margin: 20px;
+    background-color: magenta;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.row3{
+    height: 250px;
+    margin: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    width: 45%;
+    height: 600px;
+}
+
+nav{
+    height: 50px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.container h2{
+    text-align: center;
+    padding: 10px;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70%;
+
+}
+
+.profile{
+    width: 25%;
+    height: 200px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.profile img{
+    height: 60px;
+}
+
+.right-col{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.row{
+    width: 100%;
+    height: 30%;
+    border: 2px solid black;
+
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 50%;
+}
+
+.like-count{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+}
+
+.bottom{
+    padding: 0 20px;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    background-color: yellow;
+    box-shadow: 3px 3px black;
+}

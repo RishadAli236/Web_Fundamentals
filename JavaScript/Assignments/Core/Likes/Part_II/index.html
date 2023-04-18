@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Likes</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <h1>Network</h1>
+        </nav>
+        <h2>Your Feed</h2>
+        <main>
+            <div class="profile">
+                    <img src="user-circle.png" alt="user-circle">
+                    <a href="#">Add an avatar</a>
+                    <h2>James Doe</h2>
+            </div>
+            <div class="right-col">
+                <div class="row">
+                    <div class="top">
+                        <h3>Neil M</h3>
+                        <div class="like-count">
+                            <p><span class="neil">9</span> like(s)</p>
+                            <button onclick="increaseNeilLikes()">Like</button>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="top">
+                        <h3>Nichole K</h3>
+                        <div class="like-count">
+                            <p><span class="nichole">12</span> like(s)</p>
+                            <button onclick="increaseNicholeLikes()">Like</button>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="top">
+                        <h3>Jim R</h3>
+                        <div class="like-count">
+                            <p><span class="jim">9</span> like(s)</p>
+                            <button onclick="increaseJimLikes()">Like</button>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <p>I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

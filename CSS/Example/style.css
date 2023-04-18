@@ -1,0 +1,87 @@
+/* input {
+    padding: 5px;
+    border-color: rebeccapurple;
+}
+input[type="text"] {
+    border: none;
+    border-bottom: 2px solid rebeccapurple;
+}
+input[type="submit"] {
+    color: white;
+    background-color: rebeccapurple;
+} */
+/* #box-1, #box-2, #box-3{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+#box-1{
+    margin: 20px;
+}
+
+#box-2{
+    margin: 20px;
+}
+
+#box-3{
+    margin: 20px;
+} */
+
+/* h1, h2{
+    display: inline-block;
+    background-color: cyan;
+    width: 200px;
+} */
+
+label, input{
+    display: block;
+}
+
+/* p{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 160px;
+    padding: 20px;
+    background-color: cyan;
+    margin: 10px;
+    vertical-align: top;
+} */
+
+.div1{
+    border: 1px solid blue;
+}
+
+.div2{
+    border: 1px solid red;
+    width: 300px;
+    height: 100px;
+}
+
+.div3{
+    border: 1px solid green;
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+}
+.div4{
+    border: 1px solid purple;
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    box-sizing:border-box;
+}
+
+.container{
+    width: 720px;
+    height: 250px;
+    background-color: silver;
+    display: flex;
+    align-items: flex-end;
+}
+
+.col{
+    width: 220px;
+    padding: 10px;
+    background-color: blanchedalmond;
+}
